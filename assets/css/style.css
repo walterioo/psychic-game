@@ -47,3 +47,18 @@ p {
     100% {color:white;}
 }
 
+@media screen and (max-width: 960px){
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 640px){
+    .container {
+        width: 100%;
+    }
+}
