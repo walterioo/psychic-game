@@ -6,7 +6,7 @@
  // Variables to track scores
  var wins = 0;
  var loss = 0;
- var guessesLeft = 10;
+ var guessesLeft = 9;
  var userLetters = [];
 
 
@@ -20,7 +20,7 @@
     // The game will alert no more guesses are left when it gets to 0
     if(guessesLeft == 0){
         loss ++;
-        guessesLeft = 10;
+        guessesLeft = 9;
         userLetters = [];
     }
     else { 
@@ -28,7 +28,7 @@
         // Nested if to compare user choice vs computer
         if (userGuess === computerChoice) {
             wins++;
-            guessesLeft = 10;
+            guessesLeft = 9;
             userLetters = [];
         } 
         else {
