@@ -5,7 +5,7 @@ Homework 3 - Psychic Game
 [Psychic_Game](https://walterioo.github.io/psychic-game)
 
 ### Instructions
-Choose a letter
-It will be compared to a random letter 
-You have 10 chances to guess
-Choose wiselly...
+* Choose a letter
+* It will be compared to a random letter 
+* You have 10 chances to guess
+* Choose wiselly...
