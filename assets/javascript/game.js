@@ -35,7 +35,7 @@
          userLetters = [];
      }
 
-     // This if will prevent a letter to be written multiple times 
+     // This if will prevent a letter to be written multiple times if it was already pressed by the user
      if (userLetters.indexOf(userGuess) >= 0) {
 
      } else {
