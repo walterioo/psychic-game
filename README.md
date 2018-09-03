@@ -2,6 +2,8 @@
 Homework 3 - Psychic Game
 
 ## Random Letter Guessing game made with Javascript
+
+### Link to website
 [Psychic_Game](https://walterioo.github.io/psychic-game)
 
 ### Instructions
