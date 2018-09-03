@@ -1,0 +1,49 @@
+
+body {
+    background-image: url(../images/background.jpeg); 
+    font-family: 'Mystery Quest', cursive;
+    color: silver;
+    background-repeat: no-repeat;
+}
+.container {
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    font-size: 80px;
+    animation-name: headercolor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+h2 {
+    font-size: 40px;
+}
+p {
+    font-size: 30px;
+}
+
+#wins {
+    color: green;
+}
+
+#loss {
+    color: red;
+}
+#guess {
+    color: blue;
+}
+#user-letters{
+    color: whitesmoke;
+}
+
+@keyframes headercolor {
+    0% {color: white;}
+    25% {color: silver;}
+    50% {color: darkgray;}
+    75% {color: silver;}
+    100% {color:white;}
+}
+
